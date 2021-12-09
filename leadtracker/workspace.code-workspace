@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\ohmfork\\ohmfork-contracts"
+		},
+		{
+			"path": "..\\..\\ohmfork\\ohmfork-frontend"
+		},
+		{
+			"name": "wonderland-contract",
+			"path": "..\\..\\ohmfork\\wonderland-contract"
+		},
+		{
+			"name": "smallprojects",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "smallprojects"
+	}
+}

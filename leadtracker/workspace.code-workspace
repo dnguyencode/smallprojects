@@ -13,6 +13,9 @@
 		{
 			"name": "smallprojects",
 			"path": ".."
+		},
+		{
+			"path": "..\\..\\wonderlandnew"
 		}
 	],
 	"settings": {

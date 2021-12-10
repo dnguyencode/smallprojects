@@ -1,0 +1,66 @@
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --primary-coral: #F79489;
+    --primary-rose: #F8AFA6;
+    --primary-white: white;
+    --alternative-rose: #FADCD9;
+    --alternative-cream: #F9F1F0;
+
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    box-sizing: border-box;
+    background-color: var(--alternative-cream);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: var(--alternative-rose);
+}
+
+form {
+    width: 100%;
+}
+
+.form-smalltext {
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.form-group {
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.form-group input[type="radio"] {
+    align-self: center;
+    margin: 10px 0px 10px 12px;
+}
+
+.form-group input[type="checkbox"] {
+    align-self: center;
+    margin: 10px 0px 10px 12px;
+}
+
+.form-button {
+    margin-top: 5px;
+    background-color: var(--primary-rose);
+    border: 1px solid var(--primary-rose);
+    padding: 10px 20px;
+}
+
+#welcome-message {
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--alternative-rose);
+    display: none;
+}

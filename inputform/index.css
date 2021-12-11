@@ -38,16 +38,24 @@ form {
 .form-group {
     margin: 5px 0px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 6.5em 1fr 1fr 1fr;
+    text-align: left;
+    align-items: center;
+}
+
+.form-group__name {
+    grid-template-columns: 6.5em 1fr;
 }
 
 .form-group input[type="radio"] {
     align-self: center;
-    margin: 10px 0px 10px 12px;
+    margin: 10px 0px 10px 0px;
 }
 
 .form-group input[type="checkbox"] {
     align-self: center;
-    margin: 10px 0px 10px 12px;
+    margin: 10px 0px 10px 0px;
 }
 
 .form-button {

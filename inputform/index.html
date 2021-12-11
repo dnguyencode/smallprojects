@@ -8,31 +8,42 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="title">Cupcake commpetition</h1>
+    <h1 class="title">Cupcake competition</h1>
     <form class="form">
-        <div class="form-group">
+        <div class="form-group form-group__name">
             <label for="fname">First Name:</label>
             <input class="form-smalltext" type="text" name="fname" id="fname">
         </div> 
-        <div class="form-group">
+        <div class="form-group form-group__name">
             <label for="lname">Last Name:</label>
             <input class="form-smalltext" type="text" name="lname" id="lname">
         </div>
         <div class="form-group">
             <span>Flavor:</span>
-            <input type="radio" name="flavor" value="strawberry" id="strawberry">
-            <label for="strawberry">strawberry</label>
-            <input type="radio" name="flavor" value="apple" id="apple">
-            <label for="apple">apple</label>
+            <div class="radio-group">
+                <input type="radio" name="flavor" value="strawberry" id="strawberry">
+                <label for="strawberry">strawberry</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" name="flavor" value="apple" id="apple">
+                <label for="apple">apple</label>
+            </div>
+
         </div>
         <div class="form-group">
             <span>Tools:</span>
-            <input type="checkbox" name="flavor" value="mixer" id="mixer">
-            <label for="mixer">mixer</label>
-            <input type="checkbox" name="flavor" value="pan" id="pan">
-            <label for="pan">pan</label>
-            <input type="checkbox" name="flavor" value="oven" id="oven">
-            <label for="oven">oven</label>
+            <div class="radio-group">
+                <input type="checkbox" name="flavor" value="mixer" id="mixer">
+                <label for="mixer">mixer</label>
+            </div>
+            <div class="radio-group">
+                <input type="checkbox" name="flavor" value="pan" id="pan">
+                <label for="pan">pan</label>
+            </div>
+            <div class="radio-group">
+                <input type="checkbox" name="flavor" value="oven" id="oven">
+                <label for="oven">oven</label>
+            </div>
         </div>
         <button class="form-button" id="submit-button">SUBMIT</button>
         <input class="form-button" type="reset" value="CLEAR">        

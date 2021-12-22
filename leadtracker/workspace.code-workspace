@@ -1,24 +1,27 @@
 {
-	"folders": [
-		{
-			"path": "..\\..\\ohmfork\\ohmfork-contracts"
-		},
-		{
-			"path": "..\\..\\ohmfork\\ohmfork-frontend"
-		},
-		{
-			"name": "wonderland-contract",
-			"path": "..\\..\\ohmfork\\wonderland-contract"
-		},
-		{
-			"name": "smallprojects",
-			"path": ".."
-		},
-		{
-			"path": "..\\..\\wonderlandnew"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "smallprojects"
-	}
+  "folders": [
+    {
+      "path": "..\\..\\ohmfork\\ohmfork-contracts"
+    },
+    {
+      "path": "..\\..\\ohmfork\\ohmfork-frontend"
+    },
+    {
+      "name": "wonderland-contract",
+      "path": "..\\..\\ohmfork\\wonderland-contract"
+    },
+    {
+      "name": "smallprojects",
+      "path": ".."
+    },
+    {
+      "path": "..\\..\\wonderlandnew"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "smallprojects",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    }
+  }
 }

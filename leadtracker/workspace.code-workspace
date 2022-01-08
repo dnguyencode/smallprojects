@@ -1,25 +1,36 @@
 {
   "folders": [
     {
-      "path": "..\\..\\ohmfork\\ohmfork-contracts"
-    },
-    {
-      "path": "..\\..\\ohmfork\\ohmfork-frontend"
-    },
-    {
-      "name": "wonderland-contract",
-      "path": "..\\..\\ohmfork\\wonderland-contract"
-    },
-    {
       "name": "smallprojects",
       "path": ".."
     },
     {
-      "path": "..\\..\\wonderlandnew"
+      "name": "components",
+      "path": "..\\..\\components"
+    },
+    {
+      "name": "dnguyencode.github.io",
+      "path": "..\\..\\dnguyencode.github.io"
+    },
+    {
+      "name": "barbershop",
+      "path": "..\\..\\barbershop"
+    },
+    {
+      "name": "luxuryrealtor",
+      "path": "..\\..\\luxuryrealtor"
+    },
+    {
+      "name": "walletparser",
+      "path": "..\\..\\walletparser"
+    },
+    {
+      "name": "ecommerce",
+      "path": "..\\..\\ecommerce"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "smallprojects",
+    "liveServer.settings.multiRootWorkspaceName": "components",
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
     }
